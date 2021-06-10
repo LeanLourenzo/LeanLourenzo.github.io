@@ -29,6 +29,15 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/index.css" />
 
+        <!--NLP-->
+
+        <script src="javascript/natural.js"></script>
+        <script src="javascript/tf.min.js"></script>
+        <script src="javascript/palavrasClasses.js"></script>
+        <script src="javascript/nlp.js"></script>
+        <script src="javascript/criaGrafico.js"></script>
+        <script src="javascript/speechRec.js"></script>
+
     <title>Logomarca Cabeleleiros</title>
   </head>
 
@@ -473,14 +482,18 @@
         <nav
           class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
         >
+
           <div class="container-fluid d-flex">
             <i class="fas fa-bars fa-2x" id="sidebarToggle"></i>
+            <div id="textoVozContainer" class="d-sm-block d-none">
+              <input type="text" id="textoChat"></input>
+              <button id="pegaVoz" class="fas fa-microphone fa-2x " onclick="PegaVoz()"></button>
+            </div>
             <h1 class="textLogo px-3 pt-1" style="font-size: 1.5rem">
               Logomarca
             </h1>
           </div>
         </nav>
-
         <p class="text-center fw-bold fs-3 pt-3 pb-2">Inserção de unidades</p>
         <p id="queryText" class="text-center fw-light fs-5"></p>
         <div class="container w-100 pt-4">
