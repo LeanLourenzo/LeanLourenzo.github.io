@@ -327,7 +327,7 @@ function criaQueryDeleteServicosPrestados(ServicoID) {
     Funções GET, POST, PUT, DELETE para conversação com a API
 */
 
-const url = "https://12ac4b3d1709.ngrok.io/";
+const url = "https://fe327713be76.ngrok.io/";
 
 async function getTodos(qualTabela) {
   await fetch(url + "todos/" + qualTabela, {
