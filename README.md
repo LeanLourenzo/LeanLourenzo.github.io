@@ -1,5 +1,5 @@
 MySQL - NodeJS API Crud
-  - Front end pages utilizing Bootstrap 5, and an REST API made with NodeJS to request data from a relational database MySQL.  
+  - Front end pages to render data from database, utilizing Bootstrap 5 for responsiveness, and an REST API made with NodeJS to request data from the relational database through MySQL.
   - [Demo page](https://leanlourenzo.github.io/clientes)
 
 Relationship View:
